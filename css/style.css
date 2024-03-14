@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color: aliceblue ;
 }
 
 .sectionOne{
@@ -13,10 +14,15 @@
     gap: 100px;
 }
 .myImg {
-width: 450PX;
+width: 450px;
 border-radius: 50%;
 border: 5px solid cornflowerblue;
 border-style: outset;
+}
+
+.sectionOne img{
+    width: 400px;
+    height: 400px;
 }
 
 .info {
@@ -87,8 +93,8 @@ button {
 }
 
 .sectionTwo img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 .sectionTwo h1{
