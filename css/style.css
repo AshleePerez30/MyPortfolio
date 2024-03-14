@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.sectionOne{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+}
+.myImg {
+width: 450PX;
+border-radius: 50%;
+border: 5px solid cornflowerblue;
+border-style: outset;
+}
+
+.info {
+    width: 400px;
+}
+
+.info :is(h1,p) {
+    margin-bottom: 10px;
+}
+
+.info h1 {
+    font-size: 3rem;
+    color: cornflowerblue;
+}
+
+.info p {
+    font-size: 2opx;
+}
+
+.info button{
+    padding: 7px;
+    border-radius: 3px;
+    background-color:midnightblue ;  
+    color:cornsilk ;
+    font-size: 1rem;
+}
+
+.sectionTwo {
+    height: 100hv;
+}
+
+.sectionTwo h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container p {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container button {
+    padding: 7px;
+    background-color:midnightblue ;  
+    color:cornsilk ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.p1{
+    padding: 10px ;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    transition: all .8s ease ;
+    border-radius: 10px;
+}
+
+.sectionTwo img{
+    width: 300px;
+    height: 300px;
+}
+
+.sectionTwo h1{
+    color:cornflowerblue;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
